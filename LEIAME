@@ -1,0 +1,4 @@
+Esse projeto é uma implementação do problema do aspirador de pó utilizando agente.
+
+
+Execute a classe: br.cic.unb.sma.Main para ver os agentes: Aspirador e Dirt atuando no ambiente. 
