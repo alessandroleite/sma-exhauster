@@ -13,7 +13,7 @@ import br.cic.unb.sma.util.ThreadUtils;
  * entra no estado de dormência e nele permanece por um determinado intervalo de
  * tempo determinado aleatoriamente entre [1,10] segundos.
  * 
- * @author alessandro
+ * @author Alessandro Leite
  * 
  */
 public abstract class Agent implements Runnable {

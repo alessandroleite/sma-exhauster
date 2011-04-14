@@ -5,7 +5,7 @@ public class Console {
 	/**
 	 * Limpa o console do computador.
 	 */
-	public static void clear() {
+	public void clear() {
 		String cmd = null;
 		try {
 			if (System.getProperty("os.name").startsWith("Windows"))

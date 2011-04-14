@@ -9,7 +9,7 @@ package br.cic.unb.sma;
  * 
  * Quando o agente encontra-se sem energia, ele dorme
  * 
- * @author alessandro
+ * @author Alessandro Leite
  * 
  */
 public class ExhausterAgent extends Agent {

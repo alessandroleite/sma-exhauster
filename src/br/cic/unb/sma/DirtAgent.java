@@ -8,7 +8,7 @@ import br.cic.unb.sma.util.Maths;
  * aleatório entre [0,5] segundos e a sua energia nesse caso aumenta uma vez e
  * meia o custo de um movimento do ambiente ({@link Environment}).
  * 
- * @author alessandro
+ * @author Alessandro Leite
  */
 public class DirtAgent extends Agent {
 

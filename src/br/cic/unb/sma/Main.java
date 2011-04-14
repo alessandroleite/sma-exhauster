@@ -1,6 +1,9 @@
 package br.cic.unb.sma;
 
 
+/**
+ * @author Alessandro Leite
+ */
 public class Main {
 	
 	static ExhausterAgent createExhauter(Environment environment){

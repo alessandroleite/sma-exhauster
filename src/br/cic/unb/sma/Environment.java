@@ -5,7 +5,7 @@ import java.awt.Point;
 import br.cic.unb.sma.util.Maths;
 
 /**
- * @author alessandro
+ * @author Alessandro Leite
  */
 public class Environment {
 
