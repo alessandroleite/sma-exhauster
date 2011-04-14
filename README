@@ -1,0 +1,28 @@
+Esse projeto é uma implementação do problema do aspirador de pó utilizando agente.
+
+Execute a classe: br.cic.unb.sma.Main para ver os agentes: Aspirador e Dirt atuando no ambiente.
+
+Funcionamento.
+
+No SMA temos dois agentes: Um que suja o ambiente e outro que tem por objetivo deixar o ambiente limpo.
+
+Cada agente possui um nível de energia que é diminuído sempre que ele realiza algum movimento. 
+Quando fica sem energia o agente dorme por um período de tempo definido aleatóriamente. 
+No caso do agente sujador o seu tempo é menor e o nível de recuperação de energia é maior do que o do
+agente responsável por sujar.  O aspirado ganha energia sempre que ele realiza um movimento ao ambiente que está sujo. Caso contrário,
+ele perde energia.
+
+O Encoding do projeto é UTF-8. 
+
+Propriedades do agente (PEAS):
+
+O ambiente é parcialmente observável. O agente só sabe se o lugar tem sujeira ao visitar o lugar.
+Estocástico – A posição do agente  e o local que está sujo é definido randomicamente.
+Episódico – Cada ação é independente desde que o agente tenha energia suficiente para realizar (mover, limpar).
+Dinâmico – o ambiente muda enquanto o agente está realizando alguma ação 
+Discreto – As ações a serem realizadas são conhecidas.
+
+
+TODO
+  - interface gráfica
+  - comportamento dinâmico ao ambiente.
